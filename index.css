@@ -1,0 +1,135 @@
+body {
+  background-color: #8EAEBD;
+}
+
+/*
+#CF6766 Crimson Sky
+#30415D Indigo
+#031424 Ultramarine
+#8EAEBD Light Blue
+*/
+.sub-navbar {
+  color: #8EAEBD;
+  font-family: system-ui;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #30415D;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #031424;
+  font-family: monospace;
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+}
+
+
+h2 { color: #031424;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 5px;
+  text-align: center;
+}
+
+
+.text-body p {
+  color: #031424;
+  padding: 15px;
+  background-color: #CF6766;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 20px;
+  text-align: justify;
+  border-radius: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CF6766;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  font-family: system-ui;
+  display: inline-block;
+  color: #30415D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #30415D;
+  color: #CF6766;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #30415D;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #30415D;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #30415D;
+  color: #8EAEBD;
+}
+
+a:link {
+  color: #8EAEBD;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8EAEBD;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CF6766;
+  background-color: transparent;
+  text-decoration: underline;
+}
